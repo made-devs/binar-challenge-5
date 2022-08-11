@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "5282ed4c-4ff6-4d16-a6ca-79e46ed42523",
+		"name": "madedev-binar-challenge-5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22588332"
+	},
+	"item": [
+		{
+			"name": "https://binar-challenge-5.herokuapp.com/route/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://binar-challenge-5.herokuapp.com/route/api",
+					"protocol": "https",
+					"host": [
+						"binar-challenge-5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"route",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
