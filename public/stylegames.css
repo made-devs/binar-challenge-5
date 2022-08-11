@@ -1,0 +1,168 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.main-game {
+  background: rgb(156, 131, 95);
+  width: 100%;
+  height: 100%;
+}
+
+.top-content {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.back-icon {
+  width: auto;
+  height: 50px;
+}
+
+.title {
+  color: rgb(255, 191, 44);
+}
+
+.logo-game {
+  height: auto;
+  width: 70px;
+}
+
+.player-side {
+  width: 200px;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+.player-1 {
+  font-weight: bold;
+}
+
+.com-side {
+  width: 200px;
+  height: 550px;
+}
+
+.player-com {
+  font-weight: bold;
+}
+
+.container-btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.bg-hand-1 {
+  background: none;
+  border: none;
+}
+
+.bg-hand-2 {
+  background-color: rgb(196, 196, 196);
+  border: none;
+}
+
+.batu-icon {
+  height: auto;
+  width: 100px;
+}
+
+#btn-batu {
+}
+
+.kertas-icon {
+  height: auto;
+  width: 80px;
+}
+
+.gunting-icon {
+  height: auto;
+  width: 90px;
+}
+
+.hand-icon {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.hand-icon:hover {
+  /* box-shadow: 5px 6px 6px 2px #e9ecef; */
+  transform: scale(1.1);
+}
+
+.mid-side {
+  height: 600px;
+  margin: 0 70px;
+  width: 200px;
+}
+
+.mid-text {
+  margin-right: 230px;
+}
+
+.versus {
+  font-size: 120px;
+  font-weight: bold;
+  color: rgb(189, 11, 11);
+  position: absolute;
+  left: 40px;
+  top: 200px;
+}
+
+.player-1-win {
+  z-index: 9;
+  position: absolute;
+  width: 220px;
+  top: 220px;
+  left: 5px;
+  background-color: chocolate;
+  padding: 25px 20px;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.player-com-win {
+  z-index: 9;
+  position: absolute;
+  width: 220px;
+  top: 220px;
+  left: 5px;
+  background-color: chocolate;
+  padding: 25px 20px;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.player-draw {
+  z-index: 9;
+  position: absolute;
+  width: 220px;
+  top: 235px;
+  left: 5px;
+  background-color: darkgreen;
+  padding: 25px 20px;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.btn-refresh {
+  background: none;
+  border: none;
+  margin-top: 500px;
+}
+
+.refresh-icon {
+  height: auto;
+  width: 80px;
+  /* margin-top: 500px; */
+}
+
+.hidden {
+  display: none;
+}

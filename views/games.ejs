@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/stylegames.css" />
+  </head>
+  <body>
+    <section class="main-game min-vh-100">
+      <br />
+      <div class="top-content d-flex align-items-center">
+        <a href="/route/dashboard">
+          <img
+            src="/assets/back-icon.png"
+            alt="back icon logo"
+            class="back-icon me-4"
+          />
+        </a>
+        <img
+          src="/assets/logo1.png"
+          alt="logo rock paper scissors game"
+          class="logo-game me-4"
+        />
+        <h2 class="title">ROCK PAPER SCISSORS</h2>
+      </div>
+      <div class="main-content d-flex justify-content-center">
+        <div class="player-side d-flex flex-column align-items-center">
+          <h2 class="player-1 mb-2">YOU</h2>
+          <button
+            class="container-btn d-flex align-items-center justify-content-center bg-hand-1"
+            id="btn-batu"
+          >
+            <img
+              src="/assets/batu.png"
+              alt="batu icon"
+              class="batu-icon hand-icon"
+            />
+          </button>
+
+          <button
+            class="container-btn d-flex align-items-center justify-content-center bg-hand-1"
+            id="btn-kertas"
+          >
+            <img
+              src="/assets/kertas.png"
+              alt="kertas icon"
+              class="kertas-icon hand-icon"
+            />
+          </button>
+
+          <button
+            class="container-btn d-flex align-items-center justify-content-center bg-hand-1"
+            id="btn-gunting"
+          >
+            <img
+              src="/assets/gunting.png"
+              alt="gunting icon"
+              class="gunting-icon hand-icon"
+            />
+          </button>
+        </div>
+
+        <div class="mid-side d-flex align-items-center flex-column text-center">
+          <div class="mid-text position-relative">
+            <h1 class="versus">VS</h1>
+            <h2 class="player-1-win">PLAYER 1 WIN</h2>
+            <h2 class="player-com-win">COM WIN</h2>
+            <h2 class="player-draw">DRAW</h2>
+          </div>
+          <button class="btn-refresh hand-icon">
+            <img
+              src="/assets/refresh.png"
+              alt=""
+              class="refresh-icon"
+              id="btn-refresh"
+            />
+          </button>
+        </div>
+
+        <div class="com-side d-flex flex-column align-items-center">
+          <h2 class="player-com mb-2">COM</h2>
+          <div
+            class="container-btn d-flex align-items-center justify-content-center"
+            id="btn-batu-com"
+          >
+            <img
+              src="/assets/batu.png"
+              alt="batu icon"
+              class="batu-icon d-flex com-hand-1"
+            />
+          </div>
+
+          <div
+            class="container-btn d-flex align-items-center justify-content-center"
+            id="btn-kertas-com"
+          >
+            <img
+              src="/assets/kertas.png"
+              alt="kertas icon"
+              class="kertas-icon com-hand-2"
+            />
+          </div>
+
+          <div
+            class="container-btn d-flex align-items-center justify-content-center"
+            id="btn-gunting-com"
+          >
+            <img
+              src="/assets/gunting.png"
+              alt="gunting icon"
+              class="gunting-icon com-hand-3"
+            />
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+    <script src="/static/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

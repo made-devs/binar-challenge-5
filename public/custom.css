@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  color: black;
+}
+
+.main-bg {
+  background-color: rgb(13, 12, 12);
+}
+
+/* PAGE ONE */
+
+#first-page {
+  background-image: url("assets/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -10px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 -12px;
+}
+
+.nav-menu {
+  margin-left: 70px;
+}
+
+.nav-login {
+  margin-right: 60px;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.main-icon {
+  width: auto;
+  height: 50px;
+  margin-left: 40px;
+}
+
+.text-menu {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.subtext-1 {
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+.title-1 {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 180px;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 0;
+  /* font-weight: bold; */
+}
+
+p {
+  color: white;
+}
+
+.btn-play {
+  margin-top: 60px;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.nav-story {
+  margin-top: 260px;
+  padding: 0;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ico-scroll {
+  margin-top: -30;
+  margin-bottom: 40px;
+  height: 2, 5%;
+  width: 2, 5%;
+}
+
+.btn-story {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ----------------------------- */
+/* PAGE TWO */
+
+#second-page {
+  background: url("assets/the-games-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -10px;
+}
+
+.content {
+  display: inline;
+}
+
+#carouselId {
+  width: 70%;
+  margin-top: 70px;
+}
+
+.subtitle-2 {
+  margin-top: 130px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.title-2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+
+  /* margin-top: 100px; */
+}
+
+.icon-slide {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#icon-slide1 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#icon-slide2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#icon-slide3 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#icon-slide4 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#icon-slide5 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.icon-slider {
+  margin-bottom: 210px;
+  margin-right: 160px;
+}
+
+.img-carousel {
+  height: 90%;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+#switch-left {
+  margin-top: -70px;
+  margin-left: -70px;
+}
+
+#switch-right {
+  margin-top: -70px;
+  margin-right: -20px;
+}
+
+/* ----------------------------- */
+/* PAGE THREE */
+
+#third-page {
+  background: url(assets/features.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-3 {
+  margin-left: 750px;
+  margin-top: 150px;
+}
+
+#title-3 {
+  color: white;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#subtitle-3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.subcontent-3 {
+  margin-top: 40px;
+  margin-bottom: 190px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subcontent-3 ul {
+  list-style: none;
+}
+
+.subcontent-3::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 90px;
+  background-image: linear-gradient(to right, rgb(256, 256, 256), white);
+  margin-top: 9px;
+}
+
+.circle-one {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  margin-left: -50.5px;
+  margin-right: 20px;
+  margin-top: 6px;
+}
+.circle-two {
+  height: 15px;
+  width: 15px;
+  margin-left: -50.5px;
+  margin-right: 20px;
+  margin-top: 6px;
+}
+
+.body-text {
+  font-size: 18px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sub-text-3 {
+  font-size: 14px;
+  color: white;
+  margin-top: -10px;
+  padding-right: 200px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ----------------------------- */
+/* PAGE FOUR */
+
+#fourth-page {
+  background: url(assets/requirements.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-text-4 {
+  color: white;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-4 {
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 50%;
+  margin-bottom: 180px;
+}
+
+.title-4 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  height: 3em;
+  width: 300px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 95px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+
+.sub-text-4 {
+  margin-top: 10px;
+}
+
+.border-4-1 {
+  border-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-width: 1px;
+  border-color: rgba(256, 256, 256, 0.3);
+}
+.border-4-2 {
+  border-style: solid;
+  border-bottom-style: none;
+  border-width: 1px;
+  border-color: rgba(256, 256, 256, 0.3);
+}
+.border-4-3 {
+  border-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-width: 1px;
+  border-color: rgba(256, 256, 256, 0.3);
+}
+.border-4-4 {
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-style: none;
+  border-color: rgba(256, 256, 256, 0.3);
+}
+.border-4-5 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(256, 256, 256, 0.3);
+}
+
+/* ----------------------------- */
+/* PAGE FIVE */
+
+#fifth-page {
+  background: url("assets/top-score-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-5 {
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.subtext-5 {
+  color: white;
+  width: 70%;
+  margin-bottom: 35px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-more {
+  padding: 10px 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.subtext-5-1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subtext-5-2 {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subtext-date {
+  font-size: 12px;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-5 {
+  margin: 100px 0;
+}
+
+.content-5-1 {
+  margin-top: 210px;
+  margin-left: 50px;
+}
+
+.content-5-2 {
+  margin-right: 50px;
+}
+
+.id-card {
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.pp-card {
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 65px;
+  height: 65px;
+}
+
+.eclipse-card {
+  position: absolute;
+  top: 18px;
+  left: 28px;
+  width: 65px;
+  height: 65px;
+}
+
+.icon-card {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.card-css {
+  border-radius: 13px;
+  margin-bottom: 30px;
+}
+
+.card-1 {
+  margin-right: 20px;
+}
+
+/* PAGE SIX */
+
+#sixth-page {
+  background: url("assets/newsletter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skull {
+  margin-left: 50px;
+}
+
+.content-6 {
+  margin: 90px 0;
+  margin-left: 50px;
+}
+
+.content-6-1 {
+  margin-top: 50px;
+}
+
+.content-6-2 {
+  width: 50px;
+}
+
+.title-6 {
+  width: 30%;
+  margin-bottom: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.subtext-6 {
+  width: 30%;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.body-text-6 {
+  width: 85%;
+  margin-bottom: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-input {
+  width: 300px;
+  height: 60px;
+  color: orange;
+}
+
+.text-label {
+  color: lightgray;
+}
+
+.btn-subscribe {
+  width: 220px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav-bottom {
+  margin-left: 360px;
+}
+
+.socmed-icon {
+  margin-left: 100px;
+}
+
+.line-bottom {
+  border-top: 2px solid grey;
+  width: 84%;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 12px;
+  color: gray;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.breakline-bottom {
+  margin-top: 2px;
+  margin-right: 0px;
+}
+
+.terms {
+  color: white;
+  font-size: 12px;
+  margin: o;
+}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madedev Game</title>
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/custom.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid main-bg">
+    <!-- PAGE ONE -->
+
+    <div id="first-page" class="container-xxl text-center max-vh-100">
+      <nav class="navbar navbar-expand-sm ">
+        <a href="#" class="navbar-brand ms-5"
+          ><img src="/assets/icon.ico" alt="" class="main-icon"
+        /></a>
+        <div class="collapse navbar-collapse">
+          <div class="nav-menu ">
+            <ul class="navbar-nav ms-3">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-menu ms-1">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-menu ms-4">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-menu ms-4">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-menu ms-4">ABOUT ME</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-login ms-auto">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a href="/route/api" class="nav-link text-menu">USER API</a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-link text-menu ms-4">LOGOUT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 class="title-1">PLAY TRADITIONAL GAME</h1>
+      <h3 class="subtext-1">Experience new traditonal game play</h3>
+
+      <a href="/route/games" class="btn-word btn btn-warning btn-play">PLAY NOW</a>
+      <div class="container btn-story">
+        <p class="nav-story">THE STORY</p>
+        <img src="/assets/scroll-down.svg" alt="" class="ico-scroll" />
+      </div>
+      <br>
+    </div>
+
+    <!-- PAGE TWO -->
+
+    <div id="second-page" class="container-xxl max-vh-100">
+      <!-- <h2>.</h2> -->
+      <div class="d-flex justify-content-evenly">
+        <div class="flex-row">
+          <h3 class="subtitle-2">What's so special?</h3>
+          <h2 class="title-2">THE GAMES</h2>
+        </div>
+        <div class="carousel slide" data-bs-ride="carousel" id="carouselId">
+          <div class="carousel-indicators icon-slider">
+            <button
+              class="active me-3"
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              id="icon-slide1"
+            ></button>
+            <button
+              class="me-3"
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              id="icon-slide2"
+            ></button>
+            <button
+              class="me-3"
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              id="icon-slide3"
+            ></button>
+            <button
+              class="me-3"
+              data-bs-target="#carouselId"
+              data-bs-slide-to="3"
+              id="icon-slide4"
+            ></button>
+            <button
+              class="me-3"
+              data-bs-target="#carouselId"
+              data-bs-slide-to="4"
+              id="icon-slide5"
+            ></button>
+          </div>
+          <div class="carousel-inner img-carousel">
+            <div id="carousel-1" class="carousel-item active">
+              <img
+                src="http://localhost:3000/assets/rockpaperstrategy-1600.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="carousel-caption">
+                <h4>First Image</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div id="carousel-2" class="carousel-item">
+              <img
+                src="http://localhost:3000/assets/rockpaperstrategy-1600.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="carousel-caption">
+                <h4>Second Image</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div id="carousel-3" class="carousel-item">
+              <img
+                src="http://localhost:3000/assets/rockpaperstrategy-1600.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="carousel-caption">
+                <h4>Third Image</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div id="carousel-4" class="carousel-item">
+              <img
+                src="http://localhost:3000/assets/rockpaperstrategy-1600.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="carousel-caption">
+                <h4>Fourth Image</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div id="carousel-5" class="carousel-item">
+              <img
+                src="http://localhost:3000/assets/rockpaperstrategy-1600.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="carousel-caption">
+                <h4>Fifth Image</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+            id="switch-left"
+          >
+            <img src="http://localhost:3000/assets/switch-left.svg" alt="" />
+          </button>
+          <button
+            class="carousel-control-next"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+            id="switch-right"
+          >
+            <img src="http://localhost:3000/assets/switch-right.svg" alt="" />
+            <!-- <span class="carousel-control-next-icon"></span> -->
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE THREE -->
+
+    <div id="third-page" class="container-xxl max-vh-100">
+      <h6>.</h6>
+
+      <div class="d-flex flex-column content-3">
+        <h3 id="subtitle-3">What's so special?</h3>
+        <h2 id="title-3">FEATURES</h2>
+        <div class="subcontent-3 d-flex">
+          <ul>
+            <li>
+              <div class="container d-flex">
+                <div class="circle-one rounded-circle"></div>
+                <p class="body-text text-warning">TRADITIONAL GAMES</p>
+              </div>
+              <p class="sub-text-3">
+                If you miss your childhood, we provide many traditional games
+                here.
+              </p>
+            </li>
+            <li>
+              <div class="container d-flex">
+                <div
+                  class="circle-two border border-2 border-white rounded-circle"
+                ></div>
+                <p class="body-text text-warning">GAME SUIT</p>
+              </div>
+            </li>
+            <li>
+              <div class="container d-flex">
+                <div
+                  class="circle-two border border-2 border-white rounded-circle"
+                ></div>
+                <p class="body-text text-warning">TBD</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE FOUR -->
+    <div id="fourth-page" class="container-xxl max-vh-100 text-center">
+      <br>
+      <p class="top-text-4">Can My Computer Run This Game?</p>
+      <h2 class="title-4 text-start">SYSTEM REQUIREMENTS</h2>
+      <div class="container d-flex flex-column content-4 text-start text-white">
+        <div class="container d-flex flex-row">
+          <div class="container border-4-1">
+            <h3 class="sub-text-4 text-warning">OS:</h3>
+            <p>Windows 7 64-bit only (no OSX support at this time)</p>
+          </div>
+          <div class="container border-4-2">
+            <h3 class="sub-text-4 text-warning">PROCESSOR:</h3>
+            <p>Intel Core 2 Duo @ 2.4 GHz or AMD Athlon X2 @ 2.8 GHz</p>
+          </div>
+        </div>
+        <div class="container d-flex flex-row">
+          <div class="container border-4-3">
+            <h3 class="sub-text-4 text-warning">MEMORY:</h3>
+            <p>4 GB RAM</p>
+          </div>
+          <div class="container border-4-4">
+            <h3 class="sub-text-4 text-warning">STORAGE:</h3>
+            <p>8 GB available space</p>
+          </div>
+        </div>
+        <div class="container d-flex flex-row">
+          <div class="container border-4-5">
+            <h3 class="sub-text-4 text-warning">GRAPHICS:</h3>
+            <p>
+              NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11
+              (Shader Model 5)
+            </p>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <!-- PAGE FIVE -->
+
+    <div id="fifth-page" class="container-xxl max-vh-100">
+      <br />
+
+      <div class="container d-flex content-5">
+        <div class="container flex-row content-5-1">
+          <h2 class="title-5">TOP SCORES</h2>
+          <p class="subtext-5">
+            This top score from various games provided on this platform
+          </p>
+          <button class="btn btn-warning btn-more">See More</button>
+        </div>
+        <div class="container content-5-2">
+          <div class="card card-css bg-dark ms-5">
+            <div class="card-body">
+              <img
+                src="http://localhost:3000/assets/ellipse-orange.png"
+                alt=""
+                class="eclipse-card"
+              />
+              <img src="http://localhost:3000/assets/evan-lahti.jpg" alt="" class="pp-card" />
+              <img src="http://localhost:3000/assets/twitter.svg" alt="" class="icon-card" />
+              <div class="id-card">
+                <h3 class="text-warning">Evan Lahti</h3>
+                <p class="subtext-5-1 text-secondary">PC Gamer</p>
+              </div>
+              <p class="subtext-5-2">
+                "One of my gaming highlights of the year"
+              </p>
+              <p class="subtext-date text-secondary">June 18, 2021</p>
+            </div>
+          </div>
+          <div class="card card-css bg-dark me-5 card-1">
+            <div class="card-body">
+              <img
+                src="http://localhost:3000/assets/ellipse-orange.png"
+                alt=""
+                class="eclipse-card"
+              />
+              <img src="http://localhost:3000/assets/jada-griffin.jpg" alt="" class="pp-card" />
+              <img src="http://localhost:3000/assets/twitter.svg" alt="" class="icon-card" />
+              <div class="id-card">
+                <h3 class="text-warning">Jada Griffin</h3>
+                <p class="subtext-5-1 text-secondary">Nerdreactor</p>
+              </div>
+              <p class="subtext-5-2">
+                "The next big thing in the world of streaming and survival
+                games."
+              </p>
+              <p class="subtext-date text-secondary">June 18, 2021</p>
+            </div>
+          </div>
+          <div class="card card-css bg-dark ms-5">
+            <div class="card-body">
+              <img
+                src="http://localhost:3000/assets/ellipse-orange.png"
+                alt=""
+                class="eclipse-card"
+              />
+              <img src="http://localhost:3000/assets/aaron-williams.jpg" alt="" class="pp-card" />
+              <img src="http://localhost:3000/assets/twitter.svg" alt="" class="icon-card" />
+              <div class="id-card">
+                <h3 class="text-warning">Aaron Williams</h3>
+                <p class="subtext-5-1 text-secondary">Uproxx</p>
+              </div>
+              <p class="subtext-5-2">
+                "Snoop Dogg playing the wildly entertaining 'SOS' is ridiculous"
+              </p>
+              <p class="subtext-date text-secondary">June 18, 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <!-- PAGE SIX -->
+
+    <div id="sixth-page" class="container-xxl max-vh-100">
+      <br />
+      <div class="container d-flex content-6">
+        <img src="/assets/skull.png" alt="" class="skull"/>
+        <div class="container content-6-1">
+          <h3 class="subtext-6">Want to stay in touch?</h3>
+          <h2 class="title-6">NEWSLETTER SUBSCRIBE</h2>
+          <p class="body-text-6">
+            In order to start receiving our news, all you have to do is enter
+            your email address. Everything else will be taken care of by us. We
+            will send you emails containing information about game. We don't
+            spam.
+          </p>
+          <div class="d-flex">
+            <form class="form-floating">
+              <input type="email" class="form-control form-input bg-dark" id="floatingInputValue" placeholder="name@example.com" value="youremail@binar.com">
+              <label for="floatingInputValue" class="text-label">Your email address</label>
+            </form>
+            <button class="btn btn-warning btn-subscribe">Subscribe now</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <nav class="navbar navbar-expand-sm bg-transparent">
+          <div class="collapse navbar-collapse">
+            <div class="nav-bottom">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#first-page" class="nav-link text-menu ms-1">MAIN</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#second-page" class="nav-link text-menu ms-4">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#third-page" class="nav-link text-menu ms-4">GAME FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#fourth-page" class="nav-link text-menu ms-4"
+                    >SYSTEM REQUIREMENTS</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#fifth-page" class="nav-link text-menu ms-4">QUOTES</a>
+                </li>
+              </ul>
+            </div>
+            <div class="socmed-icon">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-menu">
+                    <img
+                      src="http://localhost:3000/assets/facebook.svg"
+                      alt=""
+                      class="fb-icon me-4"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-menu ms-2">
+                    <img
+                      src="http://localhost:3000/assets/twitter.svg"
+                      alt=""
+                      class="twitter-icon me-3"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-menu ms-2">
+                    <img src="http://localhost:3000/assets/vector.svg" alt="" class="yt-icon me-3" />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-menu ms-2">
+                    <img src="http://localhost:3000/assets/twitch.svg" alt="" class="twitch-icon" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="line-bottom"></div>
+      <div class="d-flex">
+        <p class="copyright">ⓒ 2022 Madedev Games, Inc. All Rights Reserved</p>
+        <nav class="navbar navbar-expand-sm ms-auto">
+          <div class="nav-login">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a href="#" class="nav-link terms">PRIVACY POLICY</a>
+              </li>
+              <li>
+                <p class="breakline-bottom">|</p>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link terms">TERMS OF SERVICE</a>
+              </li>
+              <li>
+                <p class="breakline-bottom">|</p>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link terms">CODE OF CONDUCT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <br />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+  <div>
+    <div>
+      <!-- <div>Credit by Madedev</div> -->
+    </div>
+  </div>
+</html>
